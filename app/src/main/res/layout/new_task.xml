@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/btnSelectDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select Date"
+                    android:textColor="#ffffff"
+                    android:padding="15dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="#ffea931c"/>
+
+                <TextView
+                    android:id="@+id/tvShowSelectedDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Not Selected"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/btnSelectTime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select Time"
+                    android:textColor="#ffffff"
+                    android:padding="15dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="#ffea931c"/>
+
+                <TextView
+                    android:id="@+id/tvShowSelectedTime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Not Selected"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSelectEvent"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="#ffffff"
+                android:layout_margin="20dp"
+                android:background="#ff34b9ff"
+                android:padding="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task occurs at the Date and Time that you select."
+                android:textSize="15dp"/>
+
+         </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".AllEvents">
+
+    <item
+        android:id="@+id/newEvent"
+        android:title="New Task"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_new"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+</menu>
