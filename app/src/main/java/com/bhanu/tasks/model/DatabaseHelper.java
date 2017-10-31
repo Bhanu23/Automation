@@ -1,4 +1,4 @@
-package com.fineanmol.tasks.model;
+package com.bhanu.tasks.model;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

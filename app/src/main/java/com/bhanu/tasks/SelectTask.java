@@ -1,4 +1,4 @@
-package com.fineanmol.tasks;
+package com.bhanu.tasks;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -18,7 +18,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.fineanmol.tasks.controller.TaskController;
+import com.bhanu.tasks.controller.TaskController;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -287,7 +287,7 @@ public class SelectTask extends ActionBarActivity {
 
                     Toast.makeText(SelectTask.this, "Done", Toast.LENGTH_LONG).show();
 
-                    com.fineanmol.tasks.model.Task obj = new com.fineanmol.tasks.model.Task(0, name, time, taskID, t_date, t_time);
+                    com.bhanu.tasks.model.Task obj = new com.bhanu.tasks.model.Task(0, name, time, taskID, t_date, t_time);
                     TaskController piCon = new TaskController(SelectTask.this);
                     piCon.insertPI(obj);
 

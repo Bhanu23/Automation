@@ -1,11 +1,11 @@
-package com.fineanmol.tasks.controller;
+package com.bhanu.tasks.controller;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.fineanmol.tasks.model.DatabaseHelper;
-import com.fineanmol.tasks.model.Task;
+import com.bhanu.tasks.model.DatabaseHelper;
+import com.bhanu.tasks.model.Task;
 
 import java.util.ArrayList;
 

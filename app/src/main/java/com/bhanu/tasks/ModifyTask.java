@@ -1,4 +1,4 @@
-package com.fineanmol.tasks;
+package com.bhanu.tasks;
 
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.fineanmol.tasks.controller.TaskController;
-import com.fineanmol.tasks.model.Task;
+import com.bhanu.tasks.controller.TaskController;
+import com.bhanu.tasks.model.Task;
 
 public class ModifyTask extends ActionBarActivity {
 

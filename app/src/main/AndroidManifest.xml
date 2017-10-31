@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fineanmol.tasks" >
+    package="com.bhanu.tasks" >
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -16,19 +16,19 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.fineanmol.tasks.NewTask"
+            android:name="com.bhanu.tasks.NewTask"
             android:label="@string/app_name" >
         </activity>
 
-        <service android:name="com.fineanmol.tasks.TaskService" >
+        <service android:name="com.bhanu.tasks.TaskService" >
         </service>
 
-        <activity android:name="com.fineanmol.tasks.SelectTask" >
+        <activity android:name="com.bhanu.tasks.SelectTask" >
         </activity>
 
 
 
-        <activity android:name="com.fineanmol.tasks.Home" >
+        <activity android:name="com.bhanu.tasks.Home" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,11 +38,11 @@
 
 
 
-        <activity android:name="com.fineanmol.tasks.ModifyTask" >
+        <activity android:name="com.bhanu.tasks.ModifyTask" >
         </activity>
 
 
-        <activity android:name="com.fineanmol.tasks.About" >
+        <activity android:name="com.bhanu.tasks.About" >
         </activity>
     </application>
 

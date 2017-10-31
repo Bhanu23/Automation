@@ -1,4 +1,4 @@
-package com.fineanmol.tasks.model;
+package com.bhanu.tasks.model;
 
 import java.io.Serializable;
 

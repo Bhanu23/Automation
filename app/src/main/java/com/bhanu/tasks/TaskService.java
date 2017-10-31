@@ -1,4 +1,4 @@
-package com.fineanmol.tasks;
+package com.bhanu.tasks;
 
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
@@ -11,7 +11,7 @@ import android.os.IBinder;
 import android.provider.Settings;
 import android.widget.Toast;
 
-import com.fineanmol.tasks.controller.TaskController;
+import com.bhanu.tasks.controller.TaskController;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

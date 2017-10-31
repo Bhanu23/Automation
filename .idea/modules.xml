@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Automation.iml" filepath="$PROJECT_DIR$/Automation.iml" />
+      <module fileurl="file://E:\Users\Fineanmol\AndroidStudioProjects\Automation\Automation.iml" filepath="E:\Users\Fineanmol\AndroidStudioProjects\Automation\Automation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Users\Fineanmol\AndroidStudioProjects\Automation\app\app.iml" filepath="E:\Users\Fineanmol\AndroidStudioProjects\Automation\app\app.iml" />
     </modules>
   </component>
 </project>

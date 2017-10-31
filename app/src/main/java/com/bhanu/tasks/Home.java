@@ -1,4 +1,4 @@
-package com.fineanmol.tasks;
+package com.bhanu.tasks;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.fineanmol.tasks.controller.TaskController;
-import com.fineanmol.tasks.model.Task;
+import com.bhanu.tasks.controller.TaskController;
+import com.bhanu.tasks.model.Task;
 
 import java.util.ArrayList;
 
